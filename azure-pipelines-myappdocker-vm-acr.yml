@@ -4,11 +4,11 @@ trigger:
       - main
 
 variables:
-  VM_IP_PUBLICA: '20.81.152.100'  # Se debe colocar la IP pública de tu máquina virtual
-  IMAGE_NAME: 'semana7-img'  # Se debe colocar el Nombre de la imagen que será descargada desde ACR
-  ACR_NAME: 'acrsemana7'  # Se debe colocar el Nombre de tu Azure Container Registry (ACR)
-  ACR_USERNAME: 'acrsemana7'  # Se debe colocar el Nombre de usuario del ACR
-  ACR_PASSWORD: 'TUVJTuH9+IZvcEXCIKUJ5n9++K9qThQFNus0QyYf93+ACRAkGrQJ'  # Se debe colocar la Contraseña del ACR
+  VM_IP_PUBLICA: '40.70.9.175'  # Se debe colocar la IP pública de tu máquina virtual
+  IMAGE_NAME: 'devops-img'  # Se debe colocar el Nombre de la imagen que será descargada desde ACR
+  ACR_NAME: 'devopsacrimg'  # Se debe colocar el Nombre de tu Azure Container Registry (ACR)
+  ACR_USERNAME: 'devopsacrimg'  # Se debe colocar el Nombre de usuario del ACR
+  ACR_PASSWORD: 'Btq6blVLcjP8jw1lfpcXR/NRXd2L+Dt2IUYgpD+jkG+ACRDeHJJK'  # Se debe colocar la Contraseña del ACR
 
 stages:
   - stage: Deploy
